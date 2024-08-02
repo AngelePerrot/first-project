@@ -1,4 +1,55 @@
 body {
-  background-color: black;
-  color: white;
+  background-color: rgb(251, 250, 250);
+  color: rgb(14, 14, 14);
+}
+
+h1 {
+  font-size: 5rem;
+  color: rgb(0, 0, 0);
+}
+
+.margin-bottom {
+  margin-bottom: 10px;
+}
+a {
+  color: rgb(25, 94, 197);
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.div2 {
+  width: 30%;
+  display: inline-block;
+  border: 1px solid black;
+  margin-top: 10px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 15px;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.div1 {
+  color: rgb(0, 0, 0);
+  background-color: orange;
+  text-align: center;
+  width: 50%;
+  margin: auto;
 }
